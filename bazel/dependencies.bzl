@@ -12,7 +12,7 @@ def bazel_iwyu_dependencies():
                 "https://github.com/Jose5500/include-what-you-use/releases/download/fixesCycleErrors/iwyu-0.19.2-aarch64-linux-gnu.tar.xz",
             ],
             "linux-x86_64": [
-                "https://github.com/Jose5500/include-what-you-use/releases/download/fixesCycleErrors/iwyu-0.19.2-x86_64-linux-gnu.tar.xz.gz",
+                "https://github.com/Jose5500/include-what-you-use/releases/download/fixesCycleErrors/iwyu-0.19.2-x86_64-linux-gnu.tar.gz",
             ],
         },
         strip_prefix = {
