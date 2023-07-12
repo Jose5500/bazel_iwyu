@@ -9,10 +9,10 @@ def bazel_iwyu_dependencies():
         build_file = Label("//bazel/iwyu:BUILD.prebuilt_pkg"),
         urls = {
             "linux-aarch64": [
-                "https://github.com/storypku/bazel_iwyu/releases/download/0.19.2/iwyu-0.19.2-aarch64-linux-gnu.tar.xz",
+                "https://github.com/Jose5500/include-what-you-use/archive/fixesCycleErrors/iwyu-0.19.2-aarch64-linux-gnu.tar.gz",
             ],
             "linux-x86_64": [
-                "https://github.com/storypku/bazel_iwyu/releases/download/0.19.2/iwyu-0.19.2-x86_64-linux-gnu.tar.xz",
+                "https://github.com/Jose5500/include-what-you-use/archive/fixesCycleErrors/iwyu-0.19.2-x86_64-linux-gnu.tar.gz",
             ],
         },
         strip_prefix = {
@@ -20,8 +20,8 @@ def bazel_iwyu_dependencies():
             "linux-x86_64": "iwyu-0.19.2-x86_64-linux-gnu",
         },
         sha256 = {
-            "linux-aarch64": "fc4a6435905427a24918401fe51ca7a5ef87f0ab4b0b2fb10e7988f04d690c0a",
-            "linux-x86_64": "39ac88a109e0078654c8061262c44ef9ceb494699cfa8c6f7b7c8aee91573658",
+            "linux-aarch64": "3a2ea1d364eb01cefd994ac6ce52ad4c9435c287568e7528ea93214cda47133f",
+            "linux-x86_64": "ce488485a5c5d4131a81468fcba5106fffb2d49b9b57036bf73b7fbeda354653",
         },
     )
 
