@@ -17,7 +17,7 @@ def bazel_iwyu_dependencies():
         },
         strip_prefix = {
             "linux-aarch64": "iwyu-0.19.2-x86_64-linux-gnu_test",
-            "linux-x86_64": "iwyu-0.19.2-x86_64-linux-gnu_test",
+            "linux-x86_64": "iwyu-0.19.2-x86_64-linux-gnu-real",
         },
         sha256 = {
             "linux-aarch64": "6f61443877cb92f9caac1bd2cf1b170af15fffc66b2417e2fc0bdfc2a4602f96",
