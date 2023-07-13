@@ -12,16 +12,16 @@ def bazel_iwyu_dependencies():
                 "https://github.com/Jose5500/include-what-you-use/releases/download/fixesCycleErrors/iwyu-0.19.2-aarch64-linux-gnu.tar.xz",
             ],
             "linux-x86_64": [
-                "https://github.com/Jose5500/include-what-you-use/releases/download/fixesCycleErrors/iwyu-0.19.2-x86_64-linux-gnu.tar.gz",
+                "https://github.com/storypku/bazel_iwyu/releases/download/0.19.2/iwyu-0.19.2-x86_64-linux-gnu.tar.xz",
             ],
         },
         strip_prefix = {
             "linux-aarch64": "iwyu-0.19.2-x86_64-linux-gnu_test",
-            "linux-x86_64": "iwyu-0.19.2-x86_64-linux-gnu-real",
+            "linux-x86_64": "iwyu-0.19.2-x86_64-linux-gnu",
         },
         sha256 = {
             "linux-aarch64": "6f61443877cb92f9caac1bd2cf1b170af15fffc66b2417e2fc0bdfc2a4602f96",
-            "linux-x86_64": "4861cd084eeb242e3e5310bc1ad24de57d5b0b9f1efc3beab08130899483394f",
+            "linux-x86_64": "39ac88a109e0078654c8061262c44ef9ceb494699cfa8c6f7b7c8aee91573658",
         },
     )
 
