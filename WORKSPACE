@@ -1,6 +1,6 @@
-workspace(name = "com_github_jose5500_bazel_iwyu")
+workspace(name = "bazel_iwyu")
 
-load("@com_github_jose5500_bazel_iwyu//bazel:dependencies.bzl", "bazel_iwyu_dependencies")
+load("@bazel_iwyu//bazel:dependencies.bzl", "bazel_iwyu_dependencies")
 
 bazel_iwyu_dependencies()
 
