@@ -21,7 +21,7 @@ def bazel_iwyu_dependencies():
         },
         sha256 = {
             "linux-aarch64": "6f61443877cb92f9caac1bd2cf1b170af15fffc66b2417e2fc0bdfc2a4602f96",
-            "linux-x86_64": "4fdbba04bb609d7b30b71333af1305c2f966f2d5fb91ee5574d2edb7ad5f85e1",
+            "linux-x86_64": "fb55eaf72ab1b661e79441af2abe6dcaa636231b96e93a125683d2447cef293d",
         },
     )
 
