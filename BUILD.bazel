@@ -25,5 +25,6 @@ string_list_flag(
         "--max_line_length=127",
         "--no_fwd_decls",
         "--transitive_includes_only",
+        "--no_default_mappings",
     ],
 )
